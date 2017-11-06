@@ -1,0 +1,32 @@
+body {
+    font-family: "Asap Condensed"    
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+}
+
+.delete-form {
+    display: inline;
+}
+
+.well .row {
+    padding: 10px;
+    background-color: #fcfcfc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+/* Google Maps */
+#map {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 30px;
+}

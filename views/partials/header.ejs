@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Asap+Condensed:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/campgrounds.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yelp Camp</title>
+</head>
+<body>
+    <% include navbar %>
+    
+    <div class="container">
+        <% if(error && error.length > 0) { %>
+            <div class="alert alert-danger" role="alert">
+               <%= error %>
+            </div>
+        <% } %>
+        <% if(success && success.length > 0) { %>            
+            <div class="alert alert-success" role="alert">
+                <%= success %>
+            </div>
+        <% } %>
+    </div>
+    <div class="container">
